@@ -291,6 +291,35 @@ Set the following environment variables for production:
 - `JWT_SECRET`: Strong secret key for JWT signing
 - `SERVER_PORT`: Backend server port (default: 8080)
 
+## 🔄 Keeping Repository Up to Date
+
+This project is synced with GitHub at: `https://github.com/venkataCharan22/final-year.git`
+
+### Quick Update Script
+Use the provided script to automatically commit and push changes:
+
+```bash
+# Update with automatic commit message (includes timestamp)
+./update-repo.sh
+
+# Update with custom commit message
+./update-repo.sh "Your custom commit message"
+```
+
+### Manual Update
+If you prefer to update manually:
+
+```bash
+# Add all changes
+git add .
+
+# Commit changes
+git commit -m "Your commit message"
+
+# Push to GitHub
+git push origin main
+```
+
 ## 🤝 Contributing
 
 1. Fork the repository
