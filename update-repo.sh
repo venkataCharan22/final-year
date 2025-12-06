@@ -10,7 +10,7 @@ echo "📝 Adding all changes..."
 git add .
 
 # Check if there are any changes to commit
-if git diff-staged --quiet; then
+if git diff --staged --quiet; then
     echo "✅ No changes to commit. Repository is already up to date."
     exit 0
 fi
